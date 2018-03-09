@@ -11,12 +11,12 @@ print listas[1:4]
 listas.append('cuaderno')
 #la linea de arriba agrega datos a tu lista
 print listas.index(10)
-
+print listas
 
 #saber en que posicion se encuentra el dato.
 
-ubicacion=listaABCD.index("c")
-print ubicacion
-del listaABCD[ubicacion]
-print listaABCD
+#ubicacion=listaABCD.index("c")
+#print ubicacion
+#del listaABCD[ubicacion]
+#print listaABCD
 
