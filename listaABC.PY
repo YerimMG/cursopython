@@ -1,3 +1,6 @@
+#/usr/bin/python 
+#-*-encoding: utf-8 -*-
+#agregar acentos
 lista=['a','b', 'c','d','e','f', 'g','h']
 
 print lista[0:9]
@@ -12,3 +15,4 @@ print lista
 print "elimina ese error " 
 del lista[4]
 print lista
+print "México"
