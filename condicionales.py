@@ -6,7 +6,7 @@
 #else:
 #	print "menor de edad"
 
-compra=500
+compra= input ("cuanto gasto? ")
 if compra<100:
 	print "paga con efectivo"
 elif compra ==110 or compra==220 or compra==330:
