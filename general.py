@@ -1,26 +1,19 @@
 #/usr/bin/python 
 import math
+print "Este programa resuelve la formula general, pero el primer debe ser negativo"
+print " "
+def formula_general(a, b, c):
+#	print "Este programa resuelve la formula general, pero el primer debe ser negativo"
+	positivo= (-b+math.sqrt(math.pow(b,2)-(4*a*c)))/(2*a)
+	negativo= (-b-math.sqrt(math.pow(b,2)-(4*a*c)))/(2*a)
+	print " "
+	print positivo
+	print negativo 
+	print " "
 
-a=-3
-b=8
-c=4
 
-#z=-(b)
-#x=math.pow(b,2)
-#k=a*c
-#y=4*k
+a =float(input("Primer digito, negativo: ")) 
+b = float(input("segundo digito: "))
+c = float(input("ultimo digito: "))
 
-#u=x-y
-
-#m=math.sqrt(u)
-#t1=z+m
-#g1=t1/(2*a)
-#t2=z-m
-#g2=t2/(2*a)
-#print g1
-#print g2
-
-positivo= (-b+math.sqrt(math.pow(b,2)-(4*a*c)))/(2*a)
-negativo= (-b-math.sqrt(math.pow(b,2)-(4*a*c)))/(2*a)
-print positivo
-print negativo
+formula_general(a, b, c)
